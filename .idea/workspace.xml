@@ -2,8 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bc920b29-65d0-43a1-8afa-f06a1c8c3f5f" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/javascripts/authentication/controllers/login.controller.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/templates/authentication/login.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/javascripts/thinkster.js" afterPath="$PROJECT_DIR$/static/javascripts/thinkster.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/authentication/views.py" afterPath="$PROJECT_DIR$/authentication/views.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/javascripts/authentication/controllers/register.controller.js" afterPath="$PROJECT_DIR$/static/javascripts/authentication/controllers/register.controller.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/javascripts/authentication/services/authentication.service.js" afterPath="$PROJECT_DIR$/static/javascripts/authentication/services/authentication.service.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/javascripts/thinkster.routes.js" afterPath="$PROJECT_DIR$/static/javascripts/thinkster.routes.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/javascripts.html" afterPath="$PROJECT_DIR$/templates/javascripts.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thinkster_django_angular_boilerplate/urls.py" afterPath="$PROJECT_DIR$/thinkster_django_angular_boilerplate/urls.py" />
     </list>
     <ignored path="thinkster-django-angular-boilerplate.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -23,53 +30,43 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/thinkster_django_angular_boilerplate/urls.py">
+      <file leaf-file-name="authentication.service.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/static/javascripts/authentication/services/authentication.service.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+            <state relative-caret-position="296">
+              <caret line="89" column="22" selection-start-line="89" selection-start-column="22" selection-end-line="89" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/authentication/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="754">
+              <caret line="68" column="51" selection-start-line="68" selection-start-column="51" selection-end-line="68" selection-end-column="51" />
               <folding>
-                <element signature="e#0#42#0" expanded="true" />
+                <element signature="e#0#48#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="authentication.service.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/static/javascripts/authentication/services/authentication.service.js">
+      <file leaf-file-name="login.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/static/templates/authentication/login.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="24" column="6" selection-start-line="24" selection-start-column="6" selection-end-line="24" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="login.controller.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/static/javascripts/authentication/controllers/login.controller.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="713">
-              <caret line="47" column="5" selection-start-line="47" selection-start-column="5" selection-end-line="47" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="register.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/static/templates/authentication/register.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="27" column="6" selection-start-line="27" selection-start-column="6" selection-end-line="27" selection-end-column="6" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="register.controller.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/static/javascripts/authentication/controllers/register.controller.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="30" column="5" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="thinkster.routes.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/static/javascripts/thinkster.routes.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+              <caret line="44" column="5" selection-start-line="44" selection-start-column="5" selection-end-line="44" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -85,11 +82,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="thinkster.config.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/static/javascripts/thinkster.config.js">
+      <file leaf-file-name="register.controller.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/static/javascripts/authentication/controllers/register.controller.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+            <state relative-caret-position="527">
+              <caret line="31" column="27" selection-start-line="31" selection-start-column="27" selection-end-line="31" selection-end-column="27" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="thinkster.routes.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/static/javascripts/thinkster.routes.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="442">
+              <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -105,11 +112,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="thinkster.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/static/javascripts/thinkster.js">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="26" column="16" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="16" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="navbar.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/navbar.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -126,17 +143,19 @@
         <option value="$PROJECT_DIR$/thinkster_django_angular_boilerplate/settings.py" />
         <option value="$PROJECT_DIR$/authentication/models.py" />
         <option value="$PROJECT_DIR$/authentication/serializers.py" />
-        <option value="$PROJECT_DIR$/authentication/views.py" />
         <option value="$PROJECT_DIR$/authentication/permissions.py" />
-        <option value="$PROJECT_DIR$/static/javascripts/authentication/services/authentication.service.js" />
         <option value="$PROJECT_DIR$/static/templates/authentication/register.html" />
-        <option value="$PROJECT_DIR$/static/javascripts/authentication/controllers/register.controller.js" />
         <option value="$PROJECT_DIR$/static/javascripts/authentication/authentication.module.js" />
-        <option value="$PROJECT_DIR$/templates/javascripts.html" />
-        <option value="$PROJECT_DIR$/thinkster_django_angular_boilerplate/urls.py" />
         <option value="$PROJECT_DIR$/static/javascripts/thinkster.config.js" />
-        <option value="$PROJECT_DIR$/static/javascripts/thinkster.routes.js" />
         <option value="$PROJECT_DIR$/static/javascripts/thinkster.js" />
+        <option value="$PROJECT_DIR$/thinkster_django_angular_boilerplate/urls.py" />
+        <option value="$PROJECT_DIR$/static/templates/authentication/login.html" />
+        <option value="$PROJECT_DIR$/static/javascripts/authentication/controllers/login.controller.js" />
+        <option value="$PROJECT_DIR$/static/javascripts/authentication/controllers/register.controller.js" />
+        <option value="$PROJECT_DIR$/static/javascripts/thinkster.routes.js" />
+        <option value="$PROJECT_DIR$/templates/javascripts.html" />
+        <option value="$PROJECT_DIR$/static/javascripts/authentication/services/authentication.service.js" />
+        <option value="$PROJECT_DIR$/authentication/views.py" />
       </list>
     </option>
   </component>
@@ -171,6 +190,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -199,6 +219,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="thinkster_django_angular_boilerplate" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="thinkster-django-angular-boilerplate" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="thinkster-django-angular-boilerplate" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="templates" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -272,6 +306,46 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="javascripts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="authentication" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="thinkster-django-angular-boilerplate" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="thinkster-django-angular-boilerplate" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="javascripts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="authentication" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="services" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="thinkster-django-angular-boilerplate" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="thinkster-django-angular-boilerplate" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -282,7 +356,6 @@
         </subPane>
       </pane>
       <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -441,7 +514,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1296" height="979" extended-state="6" />
+    <frame x="-8" y="-8" width="1296" height="979" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -479,6 +552,64 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/thinkster_django_angular_boilerplate/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#42#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/javascripts/authentication/services/authentication.service.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="799">
+          <caret line="47" column="5" selection-start-line="47" selection-start-column="5" selection-end-line="47" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/templates/authentication/register.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="6" selection-start-line="27" selection-start-column="6" selection-end-line="27" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/javascripts/authentication/controllers/register.controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="30" column="5" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/javascripts/thinkster.routes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/javascripts/authentication/authentication.module.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/javascripts/thinkster.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/thinkster_django_angular_boilerplate/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -574,13 +705,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/authentication/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="20" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/authentication/permissions.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -595,36 +719,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/javascripts/authentication/authentication.module.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/static/javascripts/thinkster.config.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/thinkster_django_angular_boilerplate/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#42#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/javascripts/authentication/services/authentication.service.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="713">
-          <caret line="47" column="5" selection-start-line="47" selection-start-column="5" selection-end-line="47" selection-end-column="5" />
           <folding />
         </state>
       </provider>
@@ -637,18 +735,76 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/static/javascripts/thinkster.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="16" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thinkster_django_angular_boilerplate/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#42#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/templates/authentication/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="6" selection-start-line="24" selection-start-column="6" selection-end-line="24" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/javascripts/authentication/controllers/login.controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="713">
+          <caret line="44" column="5" selection-start-line="44" selection-start-column="5" selection-end-line="44" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/static/javascripts/authentication/controllers/register.controller.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="30" column="5" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
+        <state relative-caret-position="527">
+          <caret line="31" column="27" selection-start-line="31" selection-start-column="27" selection-end-line="31" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/javascripts/authentication/authentication.module.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/static/javascripts/thinkster.routes.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+        <state relative-caret-position="442">
+          <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/navbar.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -661,11 +817,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/javascripts/thinkster.js">
+    <entry file="file://$PROJECT_DIR$/static/javascripts/authentication/services/authentication.service.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="16" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="16" />
+        <state relative-caret-position="296">
+          <caret line="89" column="22" selection-start-line="89" selection-start-column="22" selection-end-line="89" selection-end-column="22" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/authentication/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="754">
+          <caret line="68" column="51" selection-start-line="68" selection-start-column="51" selection-end-line="68" selection-end-column="51" />
+          <folding>
+            <element signature="e#0#48#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
