@@ -43,7 +43,15 @@ from rest_framework.response import Response
 
 class LoginView(views.APIView):
     def post(self, request, format=None):
-        data = json.loads(request.body)
+
+        import json
+        from urllib.request import urlopen
+
+        pan = request.body
+
+        response = pan.decode('utf8')
+
+        data = json.loads(response)
 
         email = data.get('email', None)
         password = data.get('password', None)
@@ -67,3 +75,18 @@ class LoginView(views.APIView):
                 'status': 'Unauthorized',
                 'message': 'Username/password combination invalid.'
             }, status=status.HTTP_401_UNAUTHORIZED)
+
+
+from django.contrib.auth import logout
+
+from rest_framework import permissions
+
+class LogoutView(views.APIView):
+    permission_classes = (permissions.IsAuthenticated,)
+
+    def post(self, request, format=None):
+        logout(request)
+
+        return Response({}, status=status.HTTP_204_NO_CONTENT)
+
+
